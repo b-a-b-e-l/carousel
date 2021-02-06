@@ -1,5 +1,5 @@
 html {
-  background: url(https://i.imgur.com/5PSl7xc.png) no-repeat center center fixed;
+  background: url(https://i.imgur.com/m5Irbcj.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,14 +12,14 @@ html {
   font-size: 80px;
   text-align: center;
   letter-spacing: 12px;
-  color: #fdc2ec;
+  color: #c8f4de;
 }
 
 .carousel {
   margin: 0 auto;
   max-width: 700px;
   position: relative;
-  background-color: #fdc2ec;
+  background-color: #c8f4de;
 }
 
 .carousel .carousel-item,
@@ -38,6 +38,14 @@ html {
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.carousel .carousel-item p {
+  text-align: center;
+  font-size: 20px;
+  color: #a89ced;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 15px;
 }
 
 .carousel .carousel-actions {
@@ -81,7 +89,7 @@ html {
 }
 #carousel-button-prev:hover,
 #carousel-button-next:hover {
-  background-color: rgba(224, 255, 205, 0.498);
+  background-color: #fdc2ec;
   cursor: pointer;
 }
 @keyframes fadeVisibility {
