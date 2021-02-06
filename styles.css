@@ -67,7 +67,23 @@ html {
 .carousel .carousel-actions button#carousel-button-next {
   margin-right: 20px;
 }
-
+#carousel-button-prev,
+#carousel-button-next {
+  text-align: center;
+  border-radius: 33px;
+  border: none;
+  background-color: rgba(121, 210, 209, 0.498);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 0 15px;
+  width: 60px;
+  height: 60px;
+}
+#carousel-button-prev:hover,
+#carousel-button-next:hover {
+  background-color: rgba(224, 255, 205, 0.498);
+  cursor: pointer;
+}
 @keyframes fadeVisibility {
   0% {
     opacity: 0;
@@ -77,6 +93,7 @@ html {
   }
 }
 footer {
+  margin-top: 35px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
